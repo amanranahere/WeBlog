@@ -4,6 +4,7 @@ import Transition from "../components/transition";
 import ScrollingWords from "../components/ScrollingWords";
 import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
+import para3 from "/para3-home.jpg";
 
 function Home() {
   const navigate = useNavigate();
@@ -77,7 +78,7 @@ function Home() {
 
         {/* about 'blog' */}
         <div className="h-screen w-full my-20 md:my-auto sm:my-40 flex flex-col sm:flex-row">
-          <div className="z-50 h-full lg:ml-4 sm:ml-10 md:ml-0 pt-[35rem] md:pt-[60rem] lg:pt-48 flex flex-col justify-center items-center lg:items-start bg-5484597 bg-contain bg-no-repeat bg-right absolute sm:relative">
+          <div className="z-50 h-full lg:ml-4 sm:ml-10 md:ml-0 pt-[35rem] md:pt-[60rem] lg:pt-48 flex flex-col justify-center items-center lg:items-start bg-para2-home bg-contain bg-no-repeat bg-right absolute sm:relative">
             <h1 className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[55%] font-Lato text-[10vw] sm:text-[8vw] md:text-[8vw] lg:text-[5vw] text-center font-extrabold lg:text-left">
               Explore Blogging
             </h1>

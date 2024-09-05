@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/Weblog_logo.png";
+import logo from "/Weblog_logo.png";
 
 function Logo() {
   return (
