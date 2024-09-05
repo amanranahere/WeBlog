@@ -1075,7 +1075,7 @@
 
 /*     read button - end     */
 
-/*     arrow button - end     */
+/*     arrow button - start     */
 
 .btn-arrow {
   position: relative;
@@ -1091,7 +1091,7 @@
   font-weight: bolder;
   text-transform: uppercase;
   border: 2px solid #212121;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   border-radius: 50%;
   transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
   overflow: hidden;

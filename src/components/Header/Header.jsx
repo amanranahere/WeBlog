@@ -38,20 +38,15 @@ function Header() {
 
   return (
     <header className="fixed top-0 right-0 flex justify-end w-full z-[100]">
-      <div className="bg-transparent">
+      <div className="bg-transparent w-full">
         <nav className="flex">
-          {/* <div className="h-10 w-10 mx-4">
-            <Link to="/">
-              <Logo />
-            </Link>
-          </div> */}
-          <ul className="flex ml-auto mt-2 gap-5 mr-8">
+          <ul className="flex ml-auto mt-2 gap-3 md:gap-4 lg:gap-6 xl:gap-8 mr-4 md:mr-6 lg:mr-8 flex-nowrap overflow-x-auto">
             {navItems.map((item) =>
               item.active ? (
-                <li key={item.name}>
+                <li key={item.name} className="shrink-0">
                   <button
                     onClick={() => navigate(item.slug)}
-                    className="btn relative font-medium text-sm bg-transparent border-none py-2 px-4 text-[#343434] uppercase transition duration-500 ease-in-out cursor-pointer overflow-hidden whitespace-nowrap"
+                    className="btn relative font-medium bg-transparent border-none py-2 px-4 lg:px-6 xl:px-8 text-[#343434] uppercase transition duration-500 ease-in-out cursor-pointer overflow-hidden whitespace-nowrap text-sm lg:text-base xl:text-lg"
                   >
                     {item.name}
                   </button>
@@ -59,7 +54,7 @@ function Header() {
               ) : null
             )}
             {authStatus && (
-              <li>
+              <li className="shrink-0">
                 <LogoutBtn />
               </li>
             )}

@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "/favicon.ico";
+import logo from "/logo.jpg";
 
 function Logo() {
   return (
