@@ -11,28 +11,28 @@ function Home() {
   const authStatus = useSelector((state) => state.auth.status);
 
   // draw on scroll SVG
-  useEffect(() => {
-    const svgLg = document.querySelector("svg.squiggleLg");
-    const pathLg = svgLg.querySelector("path");
+  // useEffect(() => {
+  //   const svgLg = document.querySelector("svg.squiggleLg");
+  //   const pathLg = svgLg.querySelector("path");
 
-    const scroll = () => {
-      const distance = window.scrollY;
-      const totalDistance = document.body.clientHeight - window.innerHeight;
-      const percentage = distance / totalDistance;
-      const pathLength = pathLg.getTotalLength();
+  //   const scroll = () => {
+  //     const distance = window.scrollY;
+  //     const totalDistance = document.body.clientHeight - window.innerHeight;
+  //     const percentage = distance / totalDistance;
+  //     const pathLength = pathLg.getTotalLength();
 
-      pathLg.style.strokeDasharray = `${pathLength}`;
-      pathLg.style.strokeDashoffset = `${pathLength * (1 - percentage)}`;
-    };
+  //     pathLg.style.strokeDasharray = `${pathLength}`;
+  //     pathLg.style.strokeDashoffset = `${pathLength * (1 - percentage)}`;
+  //   };
 
-    scroll();
+  //   scroll();
 
-    window.addEventListener("scroll", scroll);
+  //   window.addEventListener("scroll", scroll);
 
-    return () => {
-      window.removeEventListener("scroll", scroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener("scroll", scroll);
+  //   };
+  // }, []);
 
   return (
     <Container>
@@ -60,7 +60,7 @@ function Home() {
         </div>
 
         {/* svg */}
-        <svg
+        {/* <svg
           className="squiggleLg absolute top-20 pt-6 z-10 hidden lg:block"
           width="1512"
           height="3689"
@@ -74,7 +74,7 @@ function Home() {
             strokeWidth="2"
             strokeLinecap="round"
           />
-        </svg>
+        </svg> */}
 
         {/* about 'blog' */}
         <div className="h-screen w-full my-20 md:my-auto sm:my-40 flex flex-col sm:flex-row">
