@@ -77,7 +77,7 @@ Use the following credentials to log in and explore the full functionality of th
 
 ## Acknowledgements
 
-The basic logic and structure of this project were inspired by the online course taught by **Hitesh Choudhary**.
+I would like to express my gratitude to Sir **Hitesh Choudhary** for his inspiring online course, which provided the foundational logic and structure for this project.
 <br><br><br>
 
 ## License
