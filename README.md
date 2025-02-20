@@ -11,7 +11,7 @@
 - [Login Credentials](#login-credentials)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
-<br><br><br>
+  <br><br><br>
 
 ## Features
 
@@ -22,15 +22,15 @@
 - **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices.
 - **Dynamic Content**: Blog posts are dynamically fetched and displayed.
 - **Fast Performance**: Hosted on Vercel for fast load times and optimized asset delivery.
-<br><br><br>
+  <br><br><br>
 
 ## Technologies Used
 
 ### Frontend:
+
 - **React**: A JavaScript library for building user interfaces.
 - **Tailwind CSS**: A utility-first CSS framework for responsive styling.
 - **Vite**: A fast frontend build tool.
-- **Framer Motion**: For creating smooth animations.
 - **React Router DOM**: For navigation and routing between pages.
 - **React Redux & Redux Toolkit**: State management solution for React apps.
 - **React Hook Form**: For easy form management and validation.
@@ -38,8 +38,9 @@
 - **HTML React Parser**: To parse and render HTML strings as React components.
 
 ### Backend & Services:
+
 - **Appwrite**: A backend-as-a-service platform used for handling user authentication, database, and storage.
-<br><br><br>
+  <br><br><br>
 
 ## Live Website
 
@@ -52,26 +53,32 @@ Use the following credentials to log in and explore the full functionality of th
 
 - **Email**: sampleuser@example.com
 - **Password**: password123
-<br><br><br>
+  <br><br><br>
 
 ## Screenshots
 
 ### Homepage
+
 ![Homepage Screenshot](public/Screenshots/home-screenshot.png)
 
 ### Login Page
+
 ![Login Page Screenshot](public/Screenshots/login-screenshot.png)
 
 ### Blogs Overview
+
 ![Blogs Overview Screenshot](public/Screenshots/blogs-screenshot-1.png)
 
 ### Read Blog
+
 ![Read Blog Screenshot](public/Screenshots/read-blog-screenshot.png)
 
 ### Add New Blog
+
 ![Add Blog Screenshot](public/Screenshots/add-blog-screenshot.png)
 
 ### Edit Blog
+
 ![Edit Blog Screenshot](public/Screenshots/edit-blog-screenshot.png)
 <br><br><br>
 
