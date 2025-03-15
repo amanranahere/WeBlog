@@ -94,7 +94,7 @@ function Home() {
             <h1 className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[55%] font-Lato text-[10vw] sm:text-[8vw] md:text-[7vw] lg:text-[5vw] text-center font-extrabold lg:text-right">
               Dive into Blogging
             </h1>
-            <div className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[55%] font-SpaceGrotesk text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[2vw] text-center lg:text-right">
+            <div className="w-[90%] sm:w-[80%] md:w-[65%] lg:w-[45%] font-SpaceGrotesk text-[5vw] sm:text-[4vw] md:text-[4vw] lg:text-[2vw] text-center lg:text-right">
               Ready to dive into the vibrant blogging world? Explore diverse
               topics, connect with like-minded individuals, and discover the
               wealth of inspiring content already waiting for you. Start your
