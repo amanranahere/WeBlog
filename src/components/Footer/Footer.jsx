@@ -10,8 +10,8 @@ function Footer() {
           <Logo />
         </div>
         <div className="mb-3 text-white text-center">
-          Not sticking around for more? Well, thanks for dropping by! We hope
-          you enjoyed your visit. Come back soon for more great blogs!
+          Not sticking around for more? Well, thanks for dropping by! I hope you
+          enjoyed your visit. Come back soon for more great blogs!
         </div>
         <div className="mb-3 text-white/70 flex gap-4 ">
           <p>&copy;Copyright 2024</p>
@@ -20,9 +20,14 @@ function Footer() {
           <p>|</p>
           <p>
             Made by{" "}
-            <Link to="/" className="text-blue-200 hover:text-white">
+            <a
+              href="https://amanrana.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-200 hover:text-white"
+            >
               amanrana
-            </Link>
+            </a>
           </p>
         </div>
       </div>
