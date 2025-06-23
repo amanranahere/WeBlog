@@ -81,7 +81,7 @@ const AllPosts = () => {
             {posts.map((post, index) => (
               <div className="item" key={index}>
                 <img
-                  src={appwriteService.getFilePreview(post.featuredImage)}
+                  src={appwriteService.getFileView(post.featuredImage)}
                   alt={`img${index + 1}`}
                 />
                 <div className="content">

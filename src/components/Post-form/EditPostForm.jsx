@@ -158,7 +158,7 @@ export default function EditPostForm({ post }) {
           <div className="w-full h-full flex justify-center items-center my-8">
             <div className="w-4/5 h-4/5 items-center">
               <img
-                src={appwriteService.getFilePreview(post.featuredImage)}
+                src={appwriteService.getFileView(post.featuredImage)}
                 alt={post.title}
                 className="rounded-lg w-full h-full"
               />

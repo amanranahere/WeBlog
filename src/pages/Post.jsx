@@ -77,7 +77,7 @@ function Post() {
           }`}
         >
           <img
-            src={appwriteService.getFilePreview(post.featuredImage)}
+            src={appwriteService.getFileView(post.featuredImage)}
             alt={post.title}
             className="max-h-full max-w-full object-cover"
           />
