@@ -7,6 +7,30 @@
 @tailwind components;
 @tailwind utilities;
 
+/* scrollbar styles - start */
+
+html,
+body {
+  scrollbar-color: #6b6b6c #fff;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+html::-webkit-scrollbar-track,
+body::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+html::-webkit-scrollbar-thumb,
+body::-webkit-scrollbar-thumb {
+  background-color: #6b6b6c;
+}
+
+/* scrollbar styles - end */
+
 /*     header buttons - start     */
 
 @layer components {
